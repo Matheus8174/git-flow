@@ -1,5 +1,8 @@
 # GIT-FLOW
 
+- pra criar uma feature é necessario estar na develop
+- se der algo errado na branch de release, resolve o problema nela
+
 ## Some git-flow commands
 ```bash
   # create git flow
@@ -12,6 +15,6 @@
   git flow feature public <feature name>
   # criar release
   git flow release start <release name(exmaple 1.0)>
+  # finalizar uma release
+  git flow release finish <release name>
 ```
-
-**pra criar uma feature é necessario estar na develop**
