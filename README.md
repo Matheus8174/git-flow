@@ -3,6 +3,7 @@
 - pra criar uma feature é necessario estar na develop
 - se der algo errado na branch de release, resolve o problema nela
 - quando for criar hot fix é bom estar na branch master/main
+- da pra usar o publish na hotfix que nem na feature ```git flow hotfix publish <hotfix name>```
 
 ## Some git-flow commands
 ```bash
@@ -13,7 +14,7 @@
   # finalizar uma feature já criada
   git flow feature finish <feature name>
   # faz puch da branch para o github, pro time mecher nela
-  git flow feature public <feature name>
+  git flow feature publish <feature name>
   # criar release
   git flow release start <release name(exmaple 1.0)>
   # finalizar uma release
